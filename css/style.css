@@ -1,0 +1,201 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-item img {
+    height: 200px;
+  }
+}
+
+.custom-heading {
+  font-weight: 400;
+  font-size: 56px;
+
+  line-height: 1.2;
+}
+
+@media (max-width: 992px) {
+  .custom-heading {
+    font-size: 40px;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-heading {
+    font-size: 28px;
+    
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-heading {
+    font-size: 18px;
+
+  }
+}
+
+
+nav ul li a {
+  color: white !important;
+}
+
+.scnd {
+  background-image: url(../images/section.svg);
+  background-size: cover;
+  height: 35.56vh;
+  color: white;
+}
+
+.youtube {
+  background-image: url(../images/iframe.svg);
+  height: 384px;
+  color: white;
+  background-size: cover;
+}
+
+#testimonialSlider .carousel-item img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+#testimonialSlider p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.txt p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.6;
+  letter-spacing: -1.5%;
+  text-align: center;
+}
+.call-to-action {
+  background-color: rgba(245, 245, 245, 1);
+  display: flex;
+  align-items: center;
+  min-height: 20vh;
+}
+
+@media (max-width: 768px) {
+  .call-to-action {
+    min-height: 40vh;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .call-to-action {
+    min-height: 60vh;
+     text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+
+
+.btn-outline-primary {
+  color: rgba(24, 160, 251, 1);
+  border-color: rgba(24, 160, 251, 1);
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: rgba(24, 160, 251, 1);
+  border-color: rgba(24, 160, 251, 1);
+}
+
+.btn-primary {
+  background-color: rgba(24, 160, 251, 1);
+  border-color: rgba(24, 160, 251, 1);
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.btn-primary:hover {
+  color: rgba(20, 140, 220, 1);
+  background-color: #fff;
+  border-color: rgba(20, 140, 220, 1);
+}
+
+footer ul a {
+ 
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+.facebook {
+  border: 2px solid #1877f2; /* Facebook */
+  color: #1877f2;
+}
+.facebook:hover {
+  background-color: #1877f2;
+  color: white;
+}
+
+.twitter {
+  border: 2px solid #000000; /* X (Twitter) */
+  color: #000000;
+}
+.twitter:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.linkedin {
+  border: 2px solid #0a66c2; /* LinkedIn */
+  color: #0a66c2;
+}
+.linkedin:hover {
+  background-color: #0a66c2;
+  color: white;
+}
+
+.instgram {
+  border: 2px solid #e4405f; /* Instagram */
+  color: #e4405f;
+}
+.instgram:hover {
+  background-color: #e4405f;
+  color: white;
+}
+
+.social div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.social a {
+  color: inherit;
+}
